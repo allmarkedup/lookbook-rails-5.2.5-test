@@ -1,0 +1,7 @@
+<%= 
+  render(ExampleComponent.new(title: "This component accepts a block of content")) do
+    tag.div do
+      content_tag(:span, "Hello")
+    end
+  end
+%>
